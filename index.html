@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furni</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a href="#" class="header__logo">Furni.</a>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link--active">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">about us</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Services</a>
+            </li>
+            <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Contacts us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <h1 class="hero__tittle">Modern Interior Design Studio</h1>
+          <div class="hero__inner">
+            <button type="button" class="hero__btn">Shop Now</button>
+            <button type="button" class="hero__btn hero__btn--small">
+              Explore
+            </button>
+            <img
+              src="./img/section_hero-1x.png"
+              alt="Sofa"
+              class="hero__image"
+              width="724"
+              height="519"
+              srcset="./img/section_hero-2x.png"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="welcome">
+        <div class="container">
+          <div class="welcome__wrapper">
+            <div class="welcome__inner">
+              <h2 class="welcome__tittle">Crafted with excellent material.</h2>
+              <p class="welcome__text">
+                Donec mattis porta eros, aliquet finibus risus interdum at.
+                Nulla vivethe as it was for us to know what was to be done.
+              </p>
+              <button class="welcome__btn btn">Explore</button>
+            </div>
+            <ul class="welcome__list">
+              <li class="welcome__item">
+                <img
+                  src="./img/section_welcome-01_1x.png"
+                  alt="Nordic CHAIR"
+                  class="welcome__image"
+                  width="189"
+                  height="261"
+                  srcset="./img/section_welcome-01_2x.png"
+                />
+                <h3 class="welcome__subtittle">Nordic CHAIR</h3>
+                <p class="welcome__price">$50.00</p>
+              </li>
+              <li class="welcome__item">
+                <img
+                  src="./img/section_welcome-02_1x.png"
+                  alt="Kruzo Aero Chair"
+                  class="welcome__image"
+                  width="237"
+                  height="256"
+                  srcset="./img/section_welcome-02_2x.png"
+                />
+                <h3 class="welcome__subtittle">Kruzo Aero Chair</h3>
+                <p class="welcome__price">$78.00</p>
+              </li>
+              <li class="welcome__item">
+                <img
+                  src="./img/section_welcome-03_1x.png"
+                  alt="Ergonomic Chair"
+                  class="welcome__image welcome__image--bottom"
+                  width="153"
+                  height="235"
+                  srcset="./img/section_welcome-03_2x.png"
+                />
+                <h3 class="welcome__subtittle">Ergonomic Chair</h3>
+                <p class="welcome__price">$43.00</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="choose-us">
+        <div class="container">
+          <div class="choose-us__content">
+            <h2 class="choose-us__tittle">Why Choose Us</h2>
+            <p class="choose-us__text">
+              Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
+              vivethe as it was for us to know what was to be done. the
+            </p>
+            <div class="choose-us__inner">
+              <ul class="choose-us__list">
+                <li class="choose-us__item">
+                  <div class="choose-us__circle">
+                    <svg class="choose-us__icon" width="31" height="25">
+                      <use href="./img/icon.svg#icon-track_01"></use>
+                    </svg>
+                  </div>
+                  <h3 class="choose-us__subtittle">Fast & Free Shipping</h3>
+                  <p class="choose-us__subtext">
+                    Donec mattis porta eros, aliquet finibus risus interdum at.
+                    Nulla vivethe as it was
+                  </p>
+                </li>
+                <li class="choose-us__item">
+                  <div class="choose-us__circle">
+                    <svg class="choose-us__icon" width="31" height="25">
+                      <use href="./img/icon.svg#icon-shop_bag-02"></use>
+                    </svg>
+                  </div>
+                  <h3 class="choose-us__subtittle">Easy to Shop</h3>
+                  <p class="choose-us__subtext">
+                    Donec mattis porta eros, aliquet finibus risus interdum at.
+                    Nulla vivethe as it was
+                  </p>
+                </li>
+                <li class="choose-us__item">
+                  <div class="choose-us__circle">
+                    <svg class="choose-us__icon" width="31" height="25">
+                      <use href="./img/icon.svg#icon-support_03"></use>
+                    </svg>
+                  </div>
+                  <h3 class="choose-us__subtittle">24/7 Support</h3>
+                  <p class="choose-us__subtext">
+                    Donec mattis porta eros, aliquet finibus risus interdum at.
+                    Nulla vivethe as it was
+                  </p>
+                </li>
+                <li class="choose-us__item">
+                  <div class="choose-us__circle">
+                    <svg class="choose-us__icon" width="31" height="25">
+                      <use href="./img/icon.svg#icon-return_04"></use>
+                    </svg>
+                  </div>
+                  <h3 class="choose-us__subtittle">Hassle Free Returns</h3>
+                  <p class="choose-us__subtext">
+                    Donec mattis porta eros, aliquet finibus risus interdum at.
+                    Nulla vivethe as it was
+                  </p>
+                </li>
+              </ul>
+              <img
+                src="./img/section_choose_1x.png"
+                alt="Why Choose Us"
+                class="choose-us__image"
+                width="514"
+                height="629"
+                srcset="./img/section_choose_2x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interior-design">
+        <div class="interior-design__container container">
+          <div class="interior-design__wrapper">
+            <img
+              src="./img/sedction_design_01_1x.png"
+              alt="images"
+              class="interior-design__images interior-design__images--big"
+              width="422"
+              height="514"
+              srcset="./img/sedction_design_01_2x.png"
+            />
+            <img
+              src="./img/sedction_design_02_1x.png"
+              alt="images"
+              class="interior-design__images interior-design__images--middle"
+              width="291"
+              height="349"
+              srcset="./img/sedction_design_02_2x.png"
+            />
+            <img
+              src="./img/sedction_design_03_1x.png"
+              alt="images"
+              class="interior-design__images interior-design__images--small"
+              width="187"
+              height="187"
+              srcset="./img/sedction_design_03_2x.png"
+            />
+          </div>
+          <div class="interior-design__wrapper-text">
+            <h2 class="interior-design__tittle">
+              We help you make Modern Interior Design
+            </h2>
+            <p class="interior-design__text">
+              Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
+              vivethe as it was for us to know what was to be done. the this is
+              a long post for the text.`This small text has to be place here,
+              since this is a place holder. You can also chane it.
+            </p>
+            <ul class="interior-design__list">
+              <li class="interior-design__item">
+                Donec mattis porta eros,let aliquet finibus ri
+              </li>
+              <li class="interior-design__item">
+                Donec mattis porta eros,let aliquet finibus ri
+              </li>
+              <li class="interior-design__item">
+                Donec mattis porta eros,let aliquet finibus ri
+              </li>
+              <li class="interior-design__item">
+                Donec mattis porta eros,let aliquet finibus ri
+              </li>
+            </ul>
+            <button class="interior-design__btn btn" type="button">
+              Explore
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="product">
+        <div class="container">
+          <ul class="product__list">
+            <li class="product__item">
+              <div class="product__wrapper">
+                <div class="product__background"></div>
+                <img
+                  src="./img/section_welcome-01_1x.png"
+                  alt="Nordic Chair"
+                  class="product__image"
+                  width="91"
+                  height="125"
+                />
+              </div>
+              <div class="product__inner">
+                <h3 class="product__tittle">Nordic Chair</h3>
+                <p class="product__text">
+                  Donec mattis porta eros, aliquet finibus risus in. Donecd
+                </p>
+                <a href="" class="product__link">Read more</a>
+              </div>
+            </li>
+            <li class="product__item">
+              <div class="product__wrapper">
+                <div class="product__bacground"></div>
+                <img
+                  src="./img/section_welcome-02_1x.png"
+                  alt="Kruzi Aero"
+                  class="product__image"
+                  width="98"
+                  height="107"
+                />
+              </div>
+              <div class="product__inner">
+                <h3 class="product__tittle">Kruzi Aero</h3>
+                <p class="product__text">
+                  Donec mattis porta eros, aliquet finibus risus in. Donecd
+                </p>
+                <a href="" class="product__link">Read more</a>
+              </div>
+            </li>
+            <li class="product__item">
+              <div class="product__wrapper">
+                <div class="product__bacground"></div>
+                <img
+                  src="./img/section_welcome-03_1x.png"
+                  alt="Ergonomic Chair"
+                  class="product__image"
+                  width="78"
+                  height="119"
+                />
+              </div>
+              <div class="product__inner">
+                <h3 class="product__tittle">Ergonomic Chair</h3>
+                <p class="product__text">
+                  Donec mattis porta eros, aliquet finibus risus in. Donecd
+                </p>
+                <a href="" class="product__link">Read more</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="testimonials__container container">
+          <h2 class="testimonials__tittle">Testimonials</h2>
+          <p class="testimonials__text">
+            &ldquo;Donec nibh magna, interdum quis massa sed, rhoncus laoreet
+            quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante
+            augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel
+            nibh tellus. Pellentesque in risus non dui venenatis sollicitudin
+            sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan
+            non. Pellentesque ma&ldquo;
+          </p>
+          <div class="testimonials__inner">
+            <img
+              src="./img/section_testimonals_anna.jpg"
+              alt="Michelle Anna"
+              class="testimonials__face"
+            />
+            <p class="testimonials__name">Michelle Anna</p>
+            <p class="testimonials__position">CEO, Co-Founder, XYZ Inc.</p>
+          </div>
+        </div>
+      </section>
+      <section class="time">
+        <div class="container">
+          <div class="time__wrapper">
+            <h2 class="time__tittle">Recent Blog</h2>
+            <a href="#" class="time__link">View All Posts</a>
+          </div>
+          <ul class="time__list">
+            <li class="time__item">
+              <img
+                src="./img/section_time_01_1x.png"
+                alt="First Time"
+                class="time__image"
+                width="380"
+                height="260"
+                srcset="./img/section_time_01_2x.png"
+              />
+              <h3 class="time__subtittle">First Time Home Owner Ideas</h3>
+              <p class="time__text">
+                by<span>Nana Ama</span> on <span>Nov 18th, 2022</span>
+              </p>
+            </li>
+            <li class="time__item">
+              <img
+                src="./img/section_time_02_1x.png"
+                alt="First Time"
+                class="time__image"
+                width="380"
+                height="260"
+                srcset="./img/section_time_02_2x.png"
+              />
+              <h3 class="time__subtittle">First Time Home Owner Ideas</h3>
+              <p class="time__text">
+                by<span>Nana Ama</span> on <span>Nov 18th, 2022</span>
+              </p>
+            </li>
+            <li class="time__item">
+              <img
+                src="./img/section_time_03_1x.png"
+                alt="First Time"
+                class="time__image"
+                width="380"
+                height="260"
+                srcset="./img/section_time_03_2x.png"
+              />
+              <h3 class="time__subtittle">First Time Home Owner Ideas</h3>
+              <p class="time__text">
+                by<span>Nana Ama</span> on <span>Nov 18th, 2022</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer__subscribe subscribe">
+        <div class="subscribe__container container">
+          <div class="subscribe__wrapper">
+            <svg class="subscribe__icon" width="22" height="20">
+              <use href="./img/icon.svg#icon-massage"></use>
+            </svg>
+            <h2 class="subscribe__tittle">Subscribe to Newsletter</h2>
+          </div>
+          <form class="subscribe__form">
+            <input
+              type="text"
+              placeholder="Enter your name"
+              class="subscribe__input"
+            />
+            <input
+              type="email"
+              placeholder="Enter your e-mail"
+              class="subscribe__input"
+            />
+            <button type="submit" class="subscribe__btn">
+              <svg class="subscribe__fly" width="29" height="28">
+                <use href="./img/icon.svg#icon-fly"></use>
+              </svg>
+            </button>
+          </form>
+          <img
+            src="./img/section_subscribe_01_1x.png"
+            alt=""
+            class="subscribe__decore"
+            width="458"
+            height="396"
+            srcset="./img/section_subscribe_01_2x.png"
+          />
+        </div>
+      </section>
+      <section class="footer__content">
+        <div class="container footer__container">
+          <h2 class="footer__visually-hidden">footer__content</h2>
+          <a href="#" class="footer__logo">Furni.</a>
+          <div class="footer__brand">
+            <div class="footer__inner">
+              <p class="footer__text">
+                Donec mattis porta eros, aliquet finibus risus interdum at.
+                Nulla vivethe as it was for us to know what was to be done. the
+                this is a long post for the text.`This small text has to be
+                place here, since this is
+              </p>
+              <ul class="footer__social-list">
+                <li class="footer__social-item">
+                  <a href="#" class="footer__social-link" aria-label="Facebook">
+                    <svg class="footer__social-icon" width="12" height="19">
+                      <use href="./img/icon.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a
+                    href="#"
+                    class="footer__social-link"
+                    aria-label="Instagram"
+                  >
+                    <svg class="footer__social-icon" width="16" height="16">
+                      <use href="./img/icon.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a href="#" class="footer__social-link" aria-label="Twitter">
+                    <svg class="footer__social-icon" width="17" height="14">
+                      <use href="./img/icon.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a
+                    href="#"
+                    class="footer__social-link"
+                    aria-label="Linkedin-in"
+                  >
+                    <svg class="footer__social-icon" width="14" height="14">
+                      <use href="./img/icon.svg#icon-linkedin-in"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <nav class="footer__navigation">
+              <ul class="footer__menu">
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">About us</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Services</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Blog</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Contact us</a>
+                </li>
+              </ul>
+              <ul class="footer__menu">
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Support</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Knowledge base</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Live chat</a>
+                </li>
+              </ul>
+              <ul class="footer__menu">
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Jobs</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Our team</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Leadership</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Privacy Policy</a>
+                </li>
+              </ul>
+              <ul class="footer__menu">
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Nordic Chair</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Kruzo Aero</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Ergonomic</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
