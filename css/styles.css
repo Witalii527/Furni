@@ -266,7 +266,7 @@ body {
 /* ________________________Design______________________ */
 
 .interior-design {
-  padding-bottom: 161px 0;
+  padding-bottom: 161px;
 }
 
 .interior-design__container {
@@ -678,4 +678,11 @@ body {
 
 .footer__menu-link {
   line-height: 2; /* 200% */
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.footer__menu-link:hover,
+.footer__menu-link:focus {
+  transform: scale(1.2);
 }
